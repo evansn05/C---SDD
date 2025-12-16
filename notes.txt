@@ -1,0 +1,27 @@
+ive honestly skipped over most the higher content in these files as well not need most of them
+the AH and N5 content is where my focus is going to be in these files, since im wishing to do C++ for a project
+also if possible id like to redo the object orientated program we had prior in python
+for the H content i went up to SDD-04 just so we could at least have referneces on how to work functions in C++
+im not going beyond that because:
+a) ive mucked about with my files and strayed beyond the task from mr hunters "do something useful" instructions
+b) they are so completely pointless for almost anything
+i might do SDD-07 for higher at a later date but honestly at this moment i dont need it 
+
+ive created a really loose idea for a robot code below, idk what theyre doing so this is based entirely on the old design
+its probably some form of pseudocode?? nothing overadvanced i hope
+
+object -> robot 
+methods -> simply to run a constructor and assign variables
+
+object -> conveyor
+inherits -> robot 
+methods -> move up, move down, stop
+
+object -> intake 
+inherits -> robot 
+methods -> move in, move out, stop
+
+object -> controller
+inherits -> robot
+methods -> update drive from joystick, check for buttons being pressed and run method from other object 
+
